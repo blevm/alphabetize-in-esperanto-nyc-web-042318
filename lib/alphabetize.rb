@@ -1,7 +1,7 @@
 def alphabetize(arr)
-  esp_alph = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+  esperanto = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   english = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
   arr.sort_by do |word|
-    word.tr(esp_alph, english)
+    word.tr(esperanto, english)
   end
 end
