@@ -1,6 +1,5 @@
 def alphabetize(arr)
-  # code here
-  esp_alph = " abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
-  ascii = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-  arr.sort_by{|string| string.tr(esp_alph, ascii)}
+  esp_alph = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+  english = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+  arr.sort_by{|string| string.tr(esp_alph, english)}
 end
